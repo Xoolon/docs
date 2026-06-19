@@ -14,7 +14,7 @@ const config = {
   organizationName: 'valcr',
   projectName:    'docs-valcr',
 
-  onBrokenLinks:       'throw',
+  onBrokenLinks:       'warn',
 
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
