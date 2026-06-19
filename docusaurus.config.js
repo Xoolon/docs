@@ -74,7 +74,7 @@ const config = {
           {
             title: 'Documentation',
             items: [
-              { label: 'Introduction', to: '/' }
+              { label: 'Introduction', to: '/' },
               { label: 'Getting started', to: '/quickstart' },
               { label: 'Authentication',  to: '/auth' },
               { label: 'API reference',   to: '/api/overview' },
