@@ -1,25 +1,21 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
+glen:
+  name: Glen Norman
+  title: Founder & CEO, Valcr
+  url: https://valcr.site/about
+  image_url: https://valcr.site/img/glen-avatar.png
   socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
+    twitter: glennorman_
+    github: xoolon
+    linkedin: glen-norman
+  description: >
+    Glen Norman is the founder of Valcr and Cyntax LLC. He builds financial
+    data infrastructure for commerce — operator tools on the surface,
+    proprietary financial dataset underneath.
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+valcr_team:
+  name: Valcr Team
+  title: Product & Engineering
+  url: https://valcr.site
+  image_url: https://valcr.site/img/valcr-avatar.png
+  description: >
+    Product updates, data releases, and engineering notes from the Valcr team.

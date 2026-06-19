@@ -8,7 +8,7 @@ const darkCodeTheme   = require('prism-react-renderer').themes.dracula
 const config = {
   title:          'Valcr API Docs',
   tagline:        'Financial benchmark intelligence for commerce operators.',
-  favicon:        'img/logo.svg',
+  favicon:        'img/favicon.svg',
   url:            'https://docs.valcr.site',
   baseUrl:        '/',
   organizationName: 'valcr',
@@ -26,16 +26,11 @@ const config = {
       ({
         docs: {
           sidebarPath:    require.resolve('./sidebars.js'),
-          routeBasePath: '/docs',
+          routeBasePath: '/',
           editUrl:       undefined ,
           showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: true,
-          blogTitle:       'Valcr Blog',
-          blogDescription: 'Product updates, data insights, and engineering notes.',
-          postsPerPage:    8,
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -66,7 +61,7 @@ const config = {
         },
         items: [
           { type: 'docSidebar', sidebarId: 'docsSidebar', position: 'left', label: 'Docs' },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           { href: 'https://console.valcr.site', label: 'Console', position: 'right' },
           { href: 'https://valcr.site/pricing',  label: 'Pricing',  position: 'right' },
           { href: 'https://github.com/valcr',     label: 'GitHub',   position: 'right' },
@@ -79,6 +74,7 @@ const config = {
           {
             title: 'Documentation',
             items: [
+              { label: 'Introduction', to: '/' }
               { label: 'Getting started', to: '/quickstart' },
               { label: 'Authentication',  to: '/auth' },
               { label: 'API reference',   to: '/api/overview' },
