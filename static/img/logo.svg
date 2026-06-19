@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 32">
+  <rect x="0" y="4" width="24" height="24" rx="4" fill="#4B9EFF"/>
+  <text x="12" y="21" font-family="monospace" font-size="14" font-weight="700" fill="white" text-anchor="middle">V</text>
+  <text x="36" y="22" font-family="monospace" font-size="16" font-weight="600" fill="#E8F4FF">valcr</text>
+</svg>

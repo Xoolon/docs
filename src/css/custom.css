@@ -1,0 +1,175 @@
+/* src/css/custom.css — Valcr Docusaurus theme */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --ifm-color-primary:            #4B9EFF;
+  --ifm-color-primary-dark:       #2d8fff;
+  --ifm-color-primary-darker:     #1e87ff;
+  --ifm-color-primary-darkest:    #006fe6;
+  --ifm-color-primary-light:      #69aeff;
+  --ifm-color-primary-lighter:    #78b6ff;
+  --ifm-color-primary-lightest:   #a8d2ff;
+  --ifm-code-font-size:           88%;
+  --ifm-font-family-base:         'Inter', -apple-system, sans-serif;
+  --ifm-font-family-monospace:    'JetBrains Mono', monospace;
+  --ifm-code-background:          #0d1929;
+  --ifm-pre-background:           #080B10;
+  --docusaurus-highlighted-code-line-bg: rgba(75, 158, 255, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary:            #4B9EFF;
+  --ifm-background-color:         #080B10;
+  --ifm-background-surface-color: #0D1929;
+  --ifm-navbar-background-color:  #050709;
+  --ifm-footer-background-color:  #050709;
+  --ifm-card-background-color:    #111827;
+  --ifm-toc-border-color:         #1E3054;
+  --ifm-color-emphasis-300:       #1E3054;
+  --ifm-color-emphasis-600:       #4A6480;
+  --ifm-font-color-base:          #E8F4FF;
+  --ifm-font-color-secondary:     #8BA7C7;
+  --ifm-link-color:               #4B9EFF;
+  --ifm-menu-color:               #8BA7C7;
+  --ifm-menu-color-active:        #4B9EFF;
+  --ifm-menu-link-padding-vertical:  6px;
+  --ifm-navbar-link-color:        #8BA7C7;
+  --ifm-navbar-link-hover-color:  #E8F4FF;
+  --ifm-heading-color:            #E8F4FF;
+  --ifm-code-background:          #0d1929;
+  --docusaurus-highlighted-code-line-bg: rgba(75, 158, 255, 0.08);
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid #1E3054;
+  box-shadow: none;
+}
+
+.navbar__logo {
+  height: 24px;
+}
+
+.navbar__brand::after {
+  content: 'Data API';
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  background: rgba(75, 158, 255, .15);
+  color: #4B9EFF;
+  padding: 2px 6px;
+  border-radius: 2px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+/* Code blocks */
+.prism-code {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+}
+
+pre code {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* Inline code */
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 87%;
+  background: #0d1929;
+  border: 1px solid #1E3054;
+  border-radius: 3px;
+  padding: 1px 5px;
+  color: #6DB3FF;
+}
+
+/* Sidebar */
+.menu__link {
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.menu__link--active {
+  background: rgba(75, 158, 255, .1) !important;
+  color: #4B9EFF !important;
+  font-weight: 600;
+}
+
+.menu__caret:before {
+  border-color: #4A6480;
+}
+
+/* Tables */
+table {
+  font-size: 13px;
+}
+
+thead tr {
+  background: #0D1929 !important;
+  border-bottom: 2px solid #1E3054;
+}
+
+th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #8BA7C7 !important;
+}
+
+tbody tr {
+  border-bottom: 1px solid #1E3054;
+}
+
+tbody tr:hover {
+  background: rgba(75, 158, 255, .04);
+}
+
+/* Admonitions */
+.alert--info    { --ifm-alert-background-color: rgba(75,158,255,.08); border-color: rgba(75,158,255,.25); }
+.alert--tip     { --ifm-alert-background-color: rgba(52,211,153,.08); border-color: rgba(52,211,153,.25); }
+.alert--warning { --ifm-alert-background-color: rgba(245,158,11,.08); border-color: rgba(245,158,11,.25); }
+.alert--danger  { --ifm-alert-background-color: rgba(255,107,107,.08); border-color: rgba(255,107,107,.25); }
+
+/* Headings */
+h1 { font-size: 2rem; font-weight: 700; letter-spacing: -.02em; }
+h2 { font-size: 1.3rem; font-weight: 600; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #1E3054; }
+h3 { font-size: 1.05rem; font-weight: 600; color: #8BA7C7; }
+
+/* Footer */
+.footer__title { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.footer__link-item { font-size: 13px; color: #4A6480; }
+.footer__link-item:hover { color: #4B9EFF; text-decoration: none; }
+
+/* TOC */
+.table-of-contents__link { font-size: 12px; }
+.table-of-contents__link--active { color: #4B9EFF; font-weight: 600; }
+
+/* Endpoint method badges in docs */
+.method-badge {
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.method-get    { background: rgba(75,158,255,.15);  color: #4B9EFF; }
+.method-post   { background: rgba(52,211,153,.15);  color: #34D399; }
+.method-put    { background: rgba(167,139,250,.15); color: #A78BFA; }
+.method-patch  { background: rgba(245,158,11,.15);  color: #F59E0B; }
+.method-delete { background: rgba(255,107,107,.15); color: #FF6B6B; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #080B10; }
+::-webkit-scrollbar-thumb { background: #1E3054; border-radius: 3px; }
+
+/* Pagination */
+.pagination-nav__link { border-color: #1E3054; border-radius: 4px; }
+.pagination-nav__link:hover { border-color: #4B9EFF; }
