@@ -203,4 +203,4 @@ def call_with_retry(url, headers, params, max_retries=3):
 - [Authentication deep-dive →](./auth.md) — key rotation, scopes, security model
 - [Benchmarks API →](/api/benchmarks) — all available metrics and filters
 - [VCFS Schema →](/guides/vcfs-schema) — understand the merchant financial model
-- [Set up webhooks →](/docs-valcr/docs/webhooks.md) — get notified when quota is exhausted
+- [Set up webhooks →](./webhooks.md) — get notified when quota is exhausted
