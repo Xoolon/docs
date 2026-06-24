@@ -1,7 +1,10 @@
 ---
 id: overview
-title: API Overview
+title: "API Overview"
 sidebar_position: 1
+description: "Valcr Data API reference overview: base URL, authentication, response format, status codes, and pagination."
+keywords: [valcr api reference, api overview, rest api, http status codes]
+image: /img/valcr-social-card.png
 ---
 
 # API Reference Overview

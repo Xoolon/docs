@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Sitemap index — Docusaurus will auto-generate its own sitemap.xml
+       This index file wires both the auto-generated docs sitemap and
+       our hand-crafted blog sitemap with news schema for Google News. -->
+  <sitemap>
+    <loc>https://docs.valcr.site/sitemap.xml</loc>
+    <lastmod>2025-01-14</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.valcr.site/sitemap-blog.xml</loc>
+    <lastmod>2025-01-14</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -1,7 +1,10 @@
 ---
 id: webhooks
-title: Webhooks
+title: "Webhooks"
 sidebar_position: 4
+description: "Configure Valcr webhooks to receive real-time notifications for quota exhaustion, billing events, and key lifecycle changes."
+keywords: [valcr webhooks, webhook events, quota exhaustion notification, api webhook signature]
+image: /img/valcr-social-card.png
 ---
 
 # Webhooks

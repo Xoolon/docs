@@ -1,7 +1,10 @@
 ---
 id: quickstart
-title: Quickstart
+title: "Quickstart"
 sidebar_position: 2
+description: "Make your first Valcr Data API request in under 2 minutes. Step-by-step guide with cURL, Python, JavaScript, and Go code examples."
+keywords: [valcr quickstart, valcr api tutorial, commerce api getting started, benchmark api example]
+image: /img/valcr-social-card.png
 ---
 
 # Quickstart
@@ -201,6 +204,6 @@ def call_with_retry(url, headers, params, max_retries=3):
 ## Next steps
 
 - [Authentication deep-dive →](./auth.md) — key rotation, scopes, security model
-- [Benchmarks API →](/api/benchmarks) — all available metrics and filters
-- [VCFS Schema →](/guides/vcfs-schema) — understand the merchant financial model
+- [Benchmarks API →](./api/benchmarks.md)— all available metrics and filters
+- [VCFS Schema →](./guides/vcfs-schema.md) — understand the merchant financial model
 - [Set up webhooks →](./webhooks.md) — get notified when quota is exhausted

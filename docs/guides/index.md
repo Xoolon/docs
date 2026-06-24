@@ -1,9 +1,9 @@
 ---
 id: index
-title: "Introduction"
+title: Introduction
+description: "Valcr Data API — financial benchmark intelligence for commerce operators. Access percentile distributions, merchant VCFS profiles, peer comparisons, and XBRL exports via authenticated REST API."
 slug: /
 sidebar_position: 1
-description: "Valcr Data API — financial benchmark intelligence for commerce operators. Access percentile distributions, merchant VCFS profiles, peer comparisons, and XBRL exports via authenticated REST API."
 keywords: [valcr api, commerce benchmarks, ecommerce financial data, vcfs, benchmark intelligence, merchant data api]
 image: /img/valcr-social-card.png
 ---
@@ -15,7 +15,7 @@ image: /img/valcr-social-card.png
 Valcr gives developers programmatic access to the same benchmark data that powers the Valcr platform — category-level performance percentiles, merchant VCFS profiles, peer comparisons, AI-generated insights, and XBRL-compliant financial exports.
 
 :::tip Getting started fast?
-Jump straight to the [Quickstart →](./quickstart.md) and make your first authenticated request in under two minutes.
+Jump straight to the [Quickstart →](/docs-valcr/docs/guides/quickstart.md) and make your first authenticated request in under two minutes.
 :::
 
 ---
@@ -127,12 +127,12 @@ Official clients are in progress. In the meantime, any HTTP library works:
 - **Go** — `net/http`
 - **cURL** — for quick testing
 
-See the [Quickstart](./quickstart.md) for copy-paste examples in each language.
+See the [Quickstart](/docs-valcr/docs/guides/quickstart.md) for copy-paste examples in each language.
 
 ---
 
 ## Support
 
-- **Docs issues** — open a PR on [GitHub](https://github.com/Xoolon/docs-valcr)
-- **API issues** — email [api@valcr.site](mailto:teams@valcr.site)
-- **Enterprise** — [support@valcr.site](mailto:support@valcr.site)
+- **Docs issues** — open a PR on [GitHub](https://github.com/valcr/docs-valcr)
+- **API issues** — email [api@valcr.site](mailto:api@valcr.site)
+- **Enterprise** — [hello@valcr.site](mailto:hello@valcr.site)

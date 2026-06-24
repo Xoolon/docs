@@ -1,7 +1,10 @@
 ---
 id: benchmarks
-title: Benchmarks
+title: "Benchmarks"
 sidebar_position: 2
+description: "Valcr Benchmarks API: retrieve ecommerce financial benchmark percentiles, distributions, and historical trends by category and segment."
+keywords: [ecommerce benchmark api, gross margin benchmark, ltv cac benchmark, financial percentiles api]
+image: /img/valcr-social-card.png
 ---
 
 # Benchmarks API

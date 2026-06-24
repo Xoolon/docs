@@ -1,7 +1,10 @@
 ---
 id: vcfs-schema
-title: VCFS Schema
-sidebar_position: 1
+title: "VCFS Schema"
+sidebar_position: 4
+description: "Complete VCFS field reference: definitions, calculation methodology, completeness scoring, and platform extraction guides for Shopify, Amazon, and WooCommerce."
+keywords: [vcfs schema, valcr commerce financial schema, ecommerce financial data standard, gross margin definition]
+image: /img/valcr-social-card.png
 ---
 
 # VCFS Schema

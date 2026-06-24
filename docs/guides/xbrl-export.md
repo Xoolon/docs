@@ -1,7 +1,10 @@
 ---
 id: xbrl-export
-title: XBRL Export Guide
-sidebar_position: 2
+title: "XBRL Export Guide"
+sidebar_position: 5
+description: "Step-by-step guide to Valcr XBRL export: validating with Arelle, parsing with Python and Node.js, taxonomy mappings, and automation."
+keywords: [xbrl export guide, arelle validation, xbrl python, financial data xbrl, vcfs to xbrl]
+image: /img/valcr-social-card.png
 ---
 
 # XBRL Export Guide

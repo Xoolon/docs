@@ -1,7 +1,10 @@
 ---
 id: xbrl
-title: XBRL Export
+title: "XBRL Export"
 sidebar_position: 5
+description: "Export merchant VCFS financial data as XBRL-tagged XML for regulatory filings, audits, and ERP integration using the Valcr XBRL Export API."
+keywords: [xbrl export api, financial data export, xbrl taxonomy, vcfs xbrl, ecommerce financial filing]
+image: /img/valcr-social-card.png
 ---
 
 # XBRL Export API

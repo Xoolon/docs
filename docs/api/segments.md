@@ -1,7 +1,10 @@
 ---
 id: segments
-title: Segments
+title: "Segments"
 sidebar_position: 4
+description: "Valcr Segments API: browse available market segments and retrieve sub-segment metric breakdowns for ecommerce benchmarking."
+keywords: [ecommerce segments api, market segment benchmark, ecommerce category data]
+image: /img/valcr-social-card.png
 ---
 
 # Segments API

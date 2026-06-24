@@ -1,7 +1,10 @@
 ---
 id: merchant
-title: Merchant
+title: "Merchant"
 sidebar_position: 3
+description: "Valcr Merchant API: submit VCFS data, retrieve merchant profiles, Valcr Score, AI insights, and peer comparisons."
+keywords: [merchant vcfs api, valcr score, merchant financial profile, ecommerce peer comparison]
+image: /img/valcr-social-card.png
 ---
 
 # Merchant API

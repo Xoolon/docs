@@ -1,7 +1,10 @@
 ---
 id: auth
-title: Authentication
+title: "Authentication"
 sidebar_position: 3
+description: "Valcr API authentication: API key security model, scopes, rotation policy, rate limiting, and quota management."
+keywords: [valcr api authentication, api key security, bearer token, api scopes, rate limiting]
+image: /img/valcr-social-card.png
 ---
 
 # Authentication
