@@ -128,6 +128,7 @@ Official clients are in progress. In the meantime, any HTTP library works:
 - **cURL** — for quick testing
 
 See the [Quickstart](./quickstart.md) for copy-paste examples in each language.
+[See our custom landing page →](/home)
 
 ---
 
